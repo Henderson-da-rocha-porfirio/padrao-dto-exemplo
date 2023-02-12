@@ -1,15 +1,9 @@
 package com.tuyofood.domain.repository;
 
-import java.math.BigDecimal;
-import java.util.List;
-import java.util.Optional;
+import com.tuyofood.domain.model.*;
 
-import org.springframework.data.jpa.repository.private final;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
-import org.springframework.stereotype.Repository;
-
-import com.tuyofood.domain.model.Restaurante;
+import java.math.*;
+import java.util.*;
 
 @Repository
 public interface RestauranteRepository 
